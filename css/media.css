@@ -1,0 +1,135 @@
+@media (max-width: 992px){
+
+ .nav-links {
+ 	width: 60%;
+ }
+ .last-section__inner{
+ 	height: auto;
+ }
+}
+
+@media (max-width: 768px){
+ 
+ .nav-links {
+ 	position:fixed;
+ 	top:8vh;
+ 	right: 0px;
+ 	width: 40%;
+ 	height: 92vh;
+ 	background-color: #3D474E;
+ 	box-sizing: border-box;
+ 	padding-top: 20px;
+ 	display: block;
+ 	text-align: center;
+ 	line-height: 50px;
+ 	transform: translateX(100%);
+ 	transition: transform 0.5s ease-in; 
+ 	z-index: 10;
+
+ }
+ .nav-links li {
+ 	    transition:0.5s; 
+ 	    opacity: 0.5;
+ }
+ .nav {
+ 	justify-content: space-around;
+ }
+ .active {
+ 	transform: translateX(0%);
+	
+ }
+ .burger {
+ 	display: block;
+ } 
+ 
+ .nav-links li:hover {
+	opacity: 2;
+}
+ .toggle .line1{
+ transform: translate(-5px, 8px) rotate(-45deg);  
+background-color: #309BCA;      
+ }
+ .toggle .line2{
+opacity: 0;
+ }
+ .toggle .line3{
+ transform:  translate(-5px, -8px)  rotate(45deg );
+background-color: #309BCA;  
+}
+.section__inner {
+    width: calc(100%  / 1 - 20px );
+	
+}
+.main-flex__box {
+	width: calc( 100%  / 1 - 20px );
+
+}
+.asdide__inner.aside-img {
+	width: 100%;
+}
+.asdide__inner.aside-content {
+	width: 100%;
+}
+.big-section__inner {
+	width: calc(100% /  2 - 20px );
+}
+.big-section__inner:nth-child(2) {
+ width: 100%;
+ padding: 10px;
+}
+.big-section__inner:nth-child(6){
+ width: 100%;
+ padding: 10px;
+
+} 
+.last-section-content {
+	width:100%;
+}
+
+
+
+}
+@media (max-width: 576px){
+	.nav-links {
+		width: 60%;
+	}
+	.section__inner {
+    width: calc(100%  / 1 - 20px );
+	height: auto;
+}
+.section__inner.content-part h2 {
+	font-size: 50px;
+}
+.main-flex__box {
+	width: calc( 100%  / 1 - 20px );
+	height: auto;
+
+}
+.asdide__inner.aside-img {
+	width: 100%;
+}
+.asdide__inner.aside-content {
+	width: 100%;
+}
+.big-section__inner {
+	width: calc(100% /  1 - 20px );
+	height: auto;
+}
+.big-section__inner:nth-child(2) {
+ width: 100%;
+ padding: 10px;
+}
+.big-section__inner:nth-child(6){
+ width: 100%;
+ padding: 10px;
+
+} 
+.last-section-content {
+	width:100%;
+	height: auto;
+}
+.footer-flex  {
+	display: block;
+	padding-left: 20px;
+
+}
